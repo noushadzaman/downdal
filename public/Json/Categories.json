@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "public/images/Icons/accounts 1.png",
+        "name": "Account & Finance",
+        "number": 300
+    },
+    {
+        "id": 2,
+        "imageUrl": "public/images/Icons/business 1.png",
+        "name": "Creative Design",
+        "number": 100
+    },
+    {
+        "id": 3,
+        "imageUrl": "public/images/Icons/social-media 1.png",
+        "name": "Marketing & Sales",
+        "number": 150
+    },
+    {
+        "id": 4,
+        "imageUrl": "public/images/Icons/chip 1.png",
+        "name": "Machine Learning",
+        "number": 224
+    }
+]

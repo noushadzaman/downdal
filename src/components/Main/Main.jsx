@@ -8,7 +8,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
-            {/* <Banner></Banner> */}
+            <Banner></Banner>
             <JobCategory></JobCategory>
             <Footer></Footer>
         </div>

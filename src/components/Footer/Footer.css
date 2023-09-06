@@ -63,6 +63,9 @@ footer {
         align-items: center;
         text-align: center;
         gap: 20px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-second-part {
@@ -87,6 +90,7 @@ footer {
     .footer-first-part {
         padding-left: 150px;
         padding-right: 150px;
+        flex-wrap: wrap;
     }
 
     .footer-second-part {
@@ -102,9 +106,10 @@ footer {
 
 @media only screen and (min-width: 1501px) {
     .footer-first-part {
-         padding-left: 300px;
+        padding-left: 300px;
         padding-right: 300px;
     }
+
     .footer-second-part {
         padding-left: 300px;
         padding-right: 300px;

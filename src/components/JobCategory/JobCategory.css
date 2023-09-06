@@ -27,27 +27,32 @@
     padding-bottom: 32px;
 }
 
-.job-category {
-    width: 311px;
-    height: 243px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
-    padding-left: 40px;
+@media only screen and (max-width: 600px) {
+    .job-categories {
+        width: 95%;
+    }
+    
+    .job-categories-container {
+        flex-direction: column;
+    }
 }
 
-.job-category-img {
-    margin-top: 40px;
-    padding: 15px;
-    border-radius: 8px;
-    background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
-
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+    .job-categories-container {
+        flex-wrap: wrap;
+    }
+    .job-category {
+        flex-shrink: 1;
+    }
 }
 
-.job-category-title {
-    padding-top: 32px;
-}
+@media only screen and (min-width: 1501px) {
+    .banner {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
 
-.job-category-description {
-    padding-top: 8px;
+    .banner-info {
+        width: 50%;
+    }
 }
