@@ -1,0 +1,91 @@
+.banner {
+    padding-top: 137px;
+    padding-bottom: 137px;
+    background-image: url('../../../public/images/All Images/P3OLGJ1 copy 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner-title {
+    color: #1A1919;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 100px;
+    padding-bottom: 24px;
+}
+
+.banner-title-span {
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.banner-btn {
+    padding: 19px 28px;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        padding-right: 80px;
+        padding-left: 80px;
+        background-image: none;
+    }
+
+    .banner-info {
+        width: 90%;
+    }
+
+    .banner-title {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .banner-description {
+        color: var(--Dark-03, #757575);
+        font-size: 17px;
+        font-weight: 500;
+        padding-bottom: 32px;
+    }
+    .banner {
+        padding-top: 0px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+    .banner {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .banner-info {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+    .banner {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .banner-info {
+        width: 50%;
+    }
+}

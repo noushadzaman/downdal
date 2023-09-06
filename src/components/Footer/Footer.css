@@ -8,8 +8,6 @@ footer {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding-left: 300px;
-    padding-right: 300px;
 }
 
 .footer-first-part>div>p {
@@ -37,8 +35,6 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 50px 0 0 0;
-    padding-left: 300px;
-    padding-right: 300px;
 }
 
 .footer-second-part>p {
@@ -97,8 +93,20 @@ footer {
         padding-left: 150px;
         padding-right: 150px;
     }
+
     .footer-hr {
         margin-left: 150px;
         margin-right: 150px;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+    .footer-first-part {
+         padding-left: 300px;
+        padding-right: 300px;
+    }
+    .footer-second-part {
+        padding-left: 300px;
+        padding-right: 300px;
     }
 }

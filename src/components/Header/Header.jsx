@@ -1,14 +1,18 @@
 import React from 'react';
+import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-            <Link to="/">CareerHub</Link>
-            <Link to="/statistics">Statistics</Link>
-            <Link to="/jobs">Applied Jobs</Link>
-            <Link to="/blog">Blog</Link>
-        </div>
+        <nav>
+            <Link className='nav-home-btn' to="/">CareerHub</Link>
+            <div className='nav-btn-group'>
+                <Link className='nav-btn' to="/statistics">Statistics</Link>
+                <Link className='nav-btn' to="/jobs">Applied Jobs</Link>
+                <Link className='nav-btn' to="/blog">Blog</Link>
+            </div>
+            <Link><button className='nav-apply-btn'>Star Applying</button></Link>
+        </nav>
     );
 };
 

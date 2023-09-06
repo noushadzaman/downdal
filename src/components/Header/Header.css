@@ -1,0 +1,65 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-btn-group {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-home-btn {
+    color: #1A1919;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-btn {
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-apply-btn {
+    padding: 19px 28px;
+    border-radius: 8px;
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+    nav {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+@media only screen and (min-width: 1501px) {
+    nav {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
