@@ -1,0 +1,104 @@
+footer {
+    background-color: #1A1919;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.footer-first-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.footer-first-part>div>p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.footer-first-part>div>h5 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-first-part>div>h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-second-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.footer-second-part>p {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.careerhub-span {
+    font-weight: 600;
+}
+
+.footer-hr {
+    background-image: linear-gradient(90deg, rgba(126, 144, 254, 0.20) 0%, rgba(152, 115, 255, 0.20) 100%);
+    border: 0;
+    height: 1px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-first-part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-second-part {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .footer-hr {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    footer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+    .footer-first-part {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .footer-second-part {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .footer-hr {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
