@@ -1,0 +1,53 @@
+.job-categories {
+    padding-top: 137px;
+    padding-bottom: 137px;
+}
+
+.job-categories-container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-categories-title {
+    color: var(--Dark-01, #1A1919);
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.job-categories-description {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-bottom: 32px;
+}
+
+.job-category {
+    width: 311px;
+    height: 243px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    padding-left: 40px;
+}
+
+.job-category-img {
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.10) 0%, rgba(152, 115, 255, 0.10) 100%);
+
+}
+
+.job-category-title {
+    padding-top: 32px;
+}
+
+.job-category-description {
+    padding-top: 8px;
+}
