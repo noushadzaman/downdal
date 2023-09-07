@@ -9,6 +9,7 @@ import Main from './components/Main/Main.jsx';
 import Home from './components/Home/Home';
 import JobDetail from './components/JobDetail/JobDetail';
 import Statistics from './components/Statistics/Statistics';
+import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
   {
