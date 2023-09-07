@@ -1,8 +1,9 @@
 import React from 'react';
 import './FeaturedJob.css';
+import { Link } from 'react-router-dom';
 
 const FeaturedJob = ({ job }) => {
-    const { image_url, job_title, full_name, keywords, office_location, salary } = job;
+    const { id, image_url, job_title, full_name, keywords, office_location, salary } = job;
 
     const location = office_location.split(",");
     return (
@@ -23,7 +24,7 @@ const FeaturedJob = ({ job }) => {
                     <p>{`Salary: ${salary[0]}K - ${salary[1]}K`}</p>
                 </div>
             </div>
-            <button className='btn-detail'>View Details</button>
+            <Link className='btn-detail' to={`/Job/${id}`}>View Details</Link>
         </div>
     );
 };

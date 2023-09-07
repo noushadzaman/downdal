@@ -91,6 +91,7 @@ footer {
         padding-left: 150px;
         padding-right: 150px;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .footer-second-part {
@@ -101,6 +102,10 @@ footer {
     .footer-hr {
         margin-left: 150px;
         margin-right: 150px;
+    }
+
+    .footer-first-part>div {
+        text-align: center;
     }
 }
 
