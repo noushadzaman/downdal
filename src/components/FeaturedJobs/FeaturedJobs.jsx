@@ -10,7 +10,7 @@ const FeaturedJobs = () => {
             .then(data => setJobs(data));
     }, [])
     return (
-        <div>
+        <div className='featured-jobs'>
             <h2 className='section-title'>Featured Jobs</h2>
             <p className='section-description'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='featured-jobs-container'>
@@ -21,6 +21,7 @@ const FeaturedJobs = () => {
                     ></FeaturedJob>)
                 }
             </div>
+            <button className='btn-detail'>SEE ALL JOBS</button>
         </div>
     );
 };

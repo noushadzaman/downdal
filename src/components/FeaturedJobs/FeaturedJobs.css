@@ -2,4 +2,45 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    margin-bottom: 40px;
+}
+.featured-jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .featured-jobs {
+        width: 95%;
+    }
+
+    .featured-jobs-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
+    .featured-jobs-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .featured-job {
+        width: 458px;
+    }
+
+    .featured-jobs-container {
+        flex-shrink: 1;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+    .featured-jobs {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
 }
