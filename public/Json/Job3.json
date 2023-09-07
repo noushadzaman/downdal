@@ -1,0 +1,23 @@
+[
+    {
+        "id": 3,
+        "company_name": "Netflix",
+        "job_title": "Full Stack Developer",
+        "full_name": "Netflix, Inc.",
+        "description": "Netflix is a prominent streaming service, offering an extensive library of movies, TV shows, and original content.",
+        "office_location": "Los Gatos, California, USA",
+        "salary": [
+            "$60,000",
+            "$110,000"
+        ],
+        "keywords": [
+            "Remote",
+            "Fulltime"
+        ],
+        "image_url": "www.image.com/netflix_image.jpg",
+        "job_responsibility": "As a Full Stack Developer at Netflix, you will contribute to building the world's leading streaming platform. Your responsibilities include designing, developing, and maintaining scalable web applications and services that deliver an exceptional entertainment experience to millions of subscribers.",
+        "experience": "3",
+        "phone": "345-678-9012",
+        "email": "Netflix@gmail.com"
+    }
+]

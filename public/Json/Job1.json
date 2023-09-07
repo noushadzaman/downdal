@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "company_name": "Google",
+        "job_title": "Software Engineer",
+        "full_name": "Alphabet Inc. (Google)",
+        "description": "Google is a global tech giant, renowned for its search engine, advertising platforms, and cloud computing services.",
+        "office_location": "Mountain View, California, USA",
+        "salary": [
+            "$80,000",
+            "$150,000"
+        ],
+        "keywords": [
+            "Onsite",
+            "Fulltime"
+        ],
+        "image_url": "../images/All Images/google-1-1 1.png",
+        "job_responsibility": "As a Software Engineer at Google, you will be responsible for designing and developing software solutions that power the world's most popular search engine and innovative cloud services. Collaborate with a dynamic team to solve complex technical challenges and create products that impact billions of users worldwide.",
+        "experience": "2",
+        "phone": "123-456-7890",
+        "email": "Alphabet@gmail.com"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 8,
+        "company_name": "Alphabet",
+        "job_title": "Machine Learning Engineer",
+        "full_name": "Alphabet Inc.",
+        "description": "Alphabet Inc. is Google's parent company, involved in innovative technology ventures, including self-driving cars and AI research.",
+        "office_location": "Mountain View, California, USA and various global offices",
+        "salary": [
+            "$85,000",
+            "$160,000"
+        ],
+        "keywords": [
+            "Hybrid",
+            "Part Time"
+        ],
+        "image_url": "www.image.com/alphabet_image.jpg",
+        "job_responsibility": "As a Machine Learning Engineer at Alphabet, you will be at the forefront of AI research and self-driving technology. Your responsibilities include developing machine learning models and algorithms that power innovative projects across the Alphabet ecosystem.",
+        "experience": "3",
+        "phone": "890-123-4567",
+        "email": "Alphabet@gmail.com"
+    }
+]

@@ -7,14 +7,14 @@
         "description": "Google is a global tech giant, renowned for its search engine, advertising platforms, and cloud computing services.",
         "office_location": "Mountain View, California, USA",
         "salary": [
-            "$80,000",
-            "$150,000"
+            "$80",
+            "$150"
         ],
         "keywords": [
             "Onsite",
             "Fulltime"
         ],
-        "image_url": "www.image.com/google_image.jpg",
+        "image_url": "../images/All Images/google-1-1 1.png",
         "job_responsibility": "As a Software Engineer at Google, you will be responsible for designing and developing software solutions that power the world's most popular search engine and innovative cloud services. Collaborate with a dynamic team to solve complex technical challenges and create products that impact billions of users worldwide.",
         "experience": "2"
     },
@@ -26,14 +26,14 @@
         "description": "Tesla is a leading electric vehicle manufacturer and energy solutions provider, revolutionizing sustainable transportation.",
         "office_location": "Palo Alto, California, USA",
         "salary": [
-            "$70,000",
-            "$120,000"
+            "$70",
+            "$120"
         ],
         "keywords": [
             "Hybrid",
             "Part Time"
         ],
-        "image_url": "www.image.com/tesla_image.jpg",
+        "image_url": "../images/Logo/tesla-9 1.png",
         "job_responsibility": "As an Embedded Software Engineer at Tesla, you will work on the cutting edge of electric vehicle technology. Your responsibilities include developing and optimizing embedded software for Tesla's innovative electric vehicles, contributing to the future of sustainable transportation.",
         "experience": "5"
     },
@@ -45,14 +45,14 @@
         "description": "Netflix is a prominent streaming service, offering an extensive library of movies, TV shows, and original content.",
         "office_location": "Los Gatos, California, USA",
         "salary": [
-            "$60,000",
-            "$110,000"
+            "$60",
+            "$110"
         ],
         "keywords": [
             "Remote",
             "Fulltime"
         ],
-        "image_url": "www.image.com/netflix_image.jpg",
+        "image_url": "../images/Logo/netflix-4 1.png",
         "job_responsibility": "As a Full Stack Developer at Netflix, you will contribute to building the world's leading streaming platform. Your responsibilities include designing, developing, and maintaining scalable web applications and services that deliver an exceptional entertainment experience to millions of subscribers.",
         "experience": "3"
     },
@@ -64,14 +64,14 @@
         "description": "Microsoft is a technology behemoth, excelling in software, hardware, cloud computing, and productivity solutions.",
         "office_location": "Redmond, Washington, USA",
         "salary": [
-            "$75,000",
-            "$140,000"
+            "$75",
+            "$140"
         ],
         "keywords": [
             "Onsite",
             "Fulltime"
         ],
-        "image_url": "www.image.com/microsoft_image.jpg",
+        "image_url": "../images/Logo/kisspng-technical-support-scam-microsoft-windows-hewlett-p-microsoft-logo-5a73ef983d0320.9232200515175474162499.png",
         "job_responsibility": "As a Software Engineer at Microsoft, you will be responsible for developing cutting-edge software solutions that power Microsoft's products and services. Collaborate with a diverse team of experts to create software that enhances productivity and drives innovation.",
         "experience": "4"
     },
@@ -83,14 +83,14 @@
         "description": "Airbnb is a global hospitality platform connecting travelers with unique lodging options worldwide.",
         "office_location": "San Francisco, California, USA",
         "salary": [
-            "$65,000",
-            "$120,000"
+            "$65",
+            "$120"
         ],
         "keywords": [
             "Hybrid",
             "Fulltime"
         ],
-        "image_url": "www.image.com/airbnb_image.jpg",
+        "image_url": "../images/Logo/Group 10021.png",
         "job_responsibility": "As a Frontend Developer at Airbnb, you will create captivating user interfaces for our global hospitality platform. Your responsibilities include designing and implementing user-friendly web interfaces that provide seamless booking experiences for travelers and hosts.",
         "experience": "2"
     },
@@ -102,14 +102,14 @@
         "description": "Facebook is a social media giant, connecting billions of people and offering various communication and networking services.",
         "office_location": "Menlo Park, California, USA",
         "salary": [
-            "$80,000",
-            "$150,000"
+            "$80",
+            "$150"
         ],
         "keywords": [
             "Remote",
             "Part Time"
         ],
-        "image_url": "www.image.com/facebook_image.jpg",
+        "image_url": "../images/Logo/profile_vrt_raw_bytes_1587515400_10885.png",
         "job_responsibility": "As a Mobile App Developer at Facebook, you will shape the future of social media and communication. Your responsibilities include developing and optimizing mobile applications that connect billions of users and deliver innovative features and experiences.",
         "experience": "2"
     },
@@ -121,14 +121,14 @@
         "description": "Infosys is a leading IT consulting and services company, specializing in digital transformation and technology solutions.",
         "office_location": "Bangalore, India and various global offices",
         "salary": [
-            "$50,000",
-            "$100,000"
+            "$50",
+            "$100"
         ],
         "keywords": [
             "Onsite",
             "Fulltime"
         ],
-        "image_url": "www.image.com/infosys_image.jpg",
+        "image_url": "../images/Logo/Infosys_logo.svg.png",
         "job_responsibility": "As an IT Consultant (Software Development) at Infosys, you will work on cutting-edge digital transformation projects. Your responsibilities include designing and implementing software solutions that drive innovation and solve complex business challenges for our clients.",
         "experience": "6"
     },
@@ -140,14 +140,14 @@
         "description": "Alphabet Inc. is Google's parent company, involved in innovative technology ventures, including self-driving cars and AI research.",
         "office_location": "Mountain View, California, USA and various global offices",
         "salary": [
-            "$85,000",
-            "$160,000"
+            "$85",
+            "$160"
         ],
         "keywords": [
             "Hybrid",
             "Part Time"
         ],
-        "image_url": "www.image.com/alphabet_image.jpg",
+        "image_url": "../images/Logo/Alphabet-logo.png",
         "job_responsibility": "As a Machine Learning Engineer at Alphabet, you will be at the forefront of AI research and self-driving technology. Your responsibilities include developing machine learning models and algorithms that power innovative projects across the Alphabet ecosystem.",
         "experience": "3"
     },
@@ -159,14 +159,14 @@
         "description": "Samsung is a diverse multinational conglomerate, known for electronics, mobile devices, appliances, and more.",
         "office_location": "Seoul, South Korea and various global offices",
         "salary": [
-            "$60,000",
-            "$110,000"
+            "$60",
+            "$110"
         ],
         "keywords": [
             "Remote",
             "Fulltime"
         ],
-        "image_url": "www.image.com/samsung_image.jpg",
+        "image_url": "../images/Logo/samsung-logo-png-1288.png",
         "job_responsibility": "As an Android App Developer at Samsung, you will create cutting-edge mobile applications for Android devices. Your responsibilities include developing, testing, and optimizing Android apps, collaborating with cross-functional teams, and staying up-to-date with the latest mobile development trends.",
         "experience": "5"
     },
@@ -178,14 +178,14 @@
         "description": "IBM is a global technology and consulting firm, delivering solutions in cloud computing, artificial intelligence, and business services.",
         "office_location": "Armonk, New York, USA and various global offices",
         "salary": [
-            "$70,000",
-            "$130,000"
+            "$70",
+            "$130"
         ],
         "keywords": [
             "Onsite",
             "Fulltime"
         ],
-        "image_url": "www.image.com/ibm_image.jpg",
+        "image_url": "../images/Logo/IBM_logo.svg.png",
         "job_responsibility": "As a Cloud Solutions Architect at IBM, you will design and implement innovative cloud solutions for clients. Your responsibilities include architecting cloud infrastructure, collaborating with clients to understand their needs, and leading the implementation of cloud-based projects to drive business success.",
         "experience": "8"
     }

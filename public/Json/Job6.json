@@ -1,0 +1,23 @@
+[
+    {
+        "id": 6,
+        "company_name": "Facebook",
+        "job_title": "Mobile App Developer",
+        "full_name": "Meta Platforms, Inc. (formerly Facebook, Inc.)",
+        "description": "Facebook is a social media giant, connecting billions of people and offering various communication and networking services.",
+        "office_location": "Menlo Park, California, USA",
+        "salary": [
+            "$80,000",
+            "$150,000"
+        ],
+        "keywords": [
+            "Remote",
+            "Part Time"
+        ],
+        "image_url": "www.image.com/facebook_image.jpg",
+        "job_responsibility": "As a Mobile App Developer at Facebook, you will shape the future of social media and communication. Your responsibilities include developing and optimizing mobile applications that connect billions of users and deliver innovative features and experiences.",
+        "experience": "2",
+        "phone": "678-901-2345",
+        "email": "Meta@gmail.com"
+    }
+]

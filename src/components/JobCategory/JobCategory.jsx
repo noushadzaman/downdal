@@ -11,8 +11,8 @@ const JobCategory = () => {
     }, [])
     return (
         <section className='job-categories'>
-            <h2 className='job-categories-title'>Job Category List</h2>
-            <p className='job-categories-description'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            <h2 className='section-title'>Job Category List</h2>
+            <p className='section-description'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='job-categories-container'>
                 {
                     categories.map(category => <JobCategoryDiv

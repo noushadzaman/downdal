@@ -1,0 +1,23 @@
+[
+    {
+        "id": 2,
+        "company_name": "Tesla",
+        "job_title": "Embedded Software Engineer",
+        "full_name": "Tesla, Inc.",
+        "description": "Tesla is a leading electric vehicle manufacturer and energy solutions provider, revolutionizing sustainable transportation.",
+        "office_location": "Palo Alto, California, USA",
+        "salary": [
+            "$70,000",
+            "$120,000"
+        ],
+        "keywords": [
+            "Hybrid",
+            "Part Time"
+        ],
+        "image_url": "../images/All Images/google-1-1 1.png",
+        "job_responsibility": "As an Embedded Software Engineer at Tesla, you will work on the cutting edge of electric vehicle technology. Your responsibilities include developing and optimizing embedded software for Tesla's innovative electric vehicles, contributing to the future of sustainable transportation.",
+        "experience": "5",
+        "phone": "234-567-8901",
+        "email": "Tesla@gmail.com"
+    }
+]
