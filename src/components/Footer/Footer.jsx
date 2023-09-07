@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className='footer-first-part'>
                 <div>
-                    <h2>CareerHub</h2>
+                    <h2>DownDal</h2>
                     <h5>Unlock your career potential with us,<br></br> a trusted job company like Toptal. We match top talent<br></br> with exceptional opportunities, ensuring your success in <br></br>the ever-evolving job market. Join us for a brighter future.</h5>
                     <img src='public/images/Icons/Group 9969.png' alt="" />
                 </div>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <nav>
-            <Link className='nav-home-btn' to="/">CareerHub</Link>
+            <Link className='nav-home-btn' to="/">DownDal</Link>
             <div className='nav-btn-group'>
                 <Link className='nav-btn' to="/statistics">Statistics</Link>
                 <Link className='nav-btn' to="/jobs">Applied Jobs</Link>
