@@ -9,7 +9,7 @@ import Main from './components/Main/Main.jsx';
 import Home from './components/Home/Home';
 import JobDetail from './components/JobDetail/JobDetail';
 import Statistics from './components/Statistics/Statistics';
-import { Toaster } from 'react-hot-toast';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 
 const router = createBrowserRouter([
   {
@@ -23,11 +23,16 @@ const router = createBrowserRouter([
       {
         path: 'Job/:jobId',
         element: <JobDetail></JobDetail>,
-        loader: ({ params }) => fetch(`../../../public/Json/Job${params.jobId}.json`)
+        loader: ({ params }) => fetch(`public/Json/Job${params.jobId}.json`)
       },
       {
         path: 'statistics',
         element: <Statistics></Statistics>
+      },
+      {
+        path: 'jobs',
+        element: <AppliedJobs></AppliedJobs>,
+        // loader: cartProductsLoaders
       }
     ]
   },

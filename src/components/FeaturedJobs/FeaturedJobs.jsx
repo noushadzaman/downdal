@@ -5,7 +5,7 @@ import './FeaturedJobs.css';
 const FeaturedJobs = () => {
     const [jobs, setJobs] = useState([]);
     useEffect(() => {
-        fetch('../../../public/Json/Jobs.json')
+        fetch('public/Json/Jobs.json')
             .then(res => res.json())
             .then(data => setJobs(data));
     }, [])

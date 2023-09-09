@@ -11,7 +11,7 @@ const Header = () => {
                 <Link className='nav-btn' to="/jobs">Applied Jobs</Link>
                 <Link className='nav-btn' to="/blog">Blog</Link>
             </div>
-            <Link><button className='nav-apply-btn'>Star Applying</button></Link>
+            <Link><button to="/" className='nav-apply-btn'>Star Applying</button></Link>
         </nav>
     );
 };

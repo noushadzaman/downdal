@@ -1,36 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './JobDetail.css';
-import { addToDb, getAppliedJobs } from '../utilities/fakeDb';
+import { addToDb, getShoppingCart } from '../utilities/fakeDb';
 import toast, { Toaster } from 'react-hot-toast';
 
 
 const JobDetail = () => {
     const job = useLoaderData();
     const { description, job_responsibility, educational_requirements, experience } = job[0];
-    const { id, salary, job_title, phone, email, office_location } = job[0];
-
-    const applyJob = (product) => {
-        // let newCart = [];
-        // const exists = cart.find(pd => pd.id === product.id)
-        // if (!exists) {
-        //     product.quantity = 1;
-        //     newCart = [...cart, product];
-        // }
-        // else {
-        //     exists.quantity = exists.quantity + 1;
-        //     const remaining = cart.filter(pd => pd.id !== product.id);
-        //     newCart = [...remaining, exists];
-        // }
-        // setCart(newCart);
-        // addToDb(product.id);
-        let appliedJobs = getAppliedJobs();
+    const { id, salary, job_title, phone, email, office_location } = job[0]
+    
+    const applyJob = (id) => {
+        let appliedJobs = getShoppingCart();
         const quantity = appliedJobs[id];
+
         if (quantity === 1) {
             toast('Already Applied', {
                 duration: 3000,
                 position: 'top-right',
-                icon: '😟',
+                icon: '⛔',
             });
         }
         else {
