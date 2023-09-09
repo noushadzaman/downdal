@@ -48,25 +48,25 @@ const JobDetail = () => {
                         <h2 style={{ marginTop: '32px', marginBottom: '24px' }}>Job Details</h2>
                         <hr className='hr' />
                         <div style={{ marginTop: '16px' }} className='icon-title'>
-                            <img src="../../../public/images/Icons/Frame-4.png" alt="" />
+                            <img src="../images/Icons/Frame-4.png" alt="" />
                             <p>{office_location}</p>
                         </div>
                         <div style={{ marginTop: '16px' }} className='icon-title'>
-                            <img src="../../../public/images/Icons/Frame.png" alt="" />
+                            <img src="../images/Icons/Frame.png" alt="" />
                             <p>{`Salary: ${salary[0]}K - ${salary[1]}K`}</p>
                         </div>
                         <h2 style={{ marginTop: '32px', marginBottom: '24px' }}>Contact Information</h2>
                         <hr className='hr' />
                         <div style={{ marginTop: '16px' }} className='icon-title'>
-                            <img src="../../../public/images/Icons/Frame-2.png" alt="" />
+                            <img src="../images/Icons/Frame-2.png" alt="" />
                             <p>{`Phone: ${phone}`}</p>
                         </div>
                         <div style={{ marginTop: '16px' }} className='icon-title'>
-                            <img src="../../../public/images/Icons/Frame-3.png" alt="" />
+                            <img src="../images/Icons/Frame-3.png" alt="" />
                             <p>{`Email: ${email}`}</p>
                         </div>
                         <div style={{ marginTop: '16px' }} className='icon-title'>
-                            <img src="../../../public/images/Icons/Frame-4.png" alt="" />
+                            <img src="../images/Icons/Frame-4.png" alt="" />
                             <p>{`Address: ${office_location}`}</p>
                         </div>
                     </div>
