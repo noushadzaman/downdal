@@ -7,6 +7,8 @@ import toast, { Toaster } from 'react-hot-toast';
 
 const JobDetail = () => {
     const job = useLoaderData();
+    console.log(job);
+
     const { description, job_responsibility, educational_requirements, experience } = job[0];
     const { id, salary, job_title, phone, email, office_location } = job[0];
     

@@ -9,7 +9,6 @@ const Header = () => {
             <div className='nav-btn-group'>
                 <Link className='nav-btn' to="/statistics">Statistics</Link>
                 <Link className='nav-btn' to="/jobs">Applied Jobs</Link>
-                <Link className='nav-btn' to="/blog">Blog</Link>
             </div>
             <Link><button to="/" className='nav-apply-btn'>Star Applying</button></Link>
         </nav>

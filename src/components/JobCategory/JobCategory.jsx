@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import './JobCategory.css';
-import JobCategoryDiv from '../JobcategoryDiv/JobCategoryDiv';
+import JobCategoryDiv from '../JobCategoryDiv/JobCategoryDiv';
 
 const JobCategory = () => {
     const [categories, setCategories] = useState([]);
     useEffect(() => {
-        fetch('../../../public/Json/Categories.json')
+        fetch('Categories.json')
             .then(res => res.json())
             .then(data => setCategories(data));
     }, [])

@@ -7,7 +7,7 @@ const FeaturedJobs = () => {
     const [allJobs, setAllJobs] = useState(false);
 
     useEffect(() => {
-        fetch('public/Json/Jobs.json')
+        fetch('Jobs.json')
             .then(res => res.json())
             .then(data => setJobs(data));
     }, [])
@@ -33,7 +33,7 @@ const FeaturedJobs = () => {
                     ></FeaturedJob>)
                 }
             </div>
-            <button onClick={() => seeAllJobsFunc()} className='btn-detail'>SEE ALL JOBS</button>
+            <button style={{cursor: 'pointer'}} onClick={() => seeAllJobsFunc()} className='btn-detail'>SEE ALL JOBS</button>
         </div>
     );
 };
