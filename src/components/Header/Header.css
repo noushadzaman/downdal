@@ -10,9 +10,16 @@ nav {
     display: flex;
     gap: 50px;
 }
+nav a.active{
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 
 .nav-home-btn {
-    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    background:  #1A1919;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
