@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetail.css';
-import { addToDb, getShoppingCart } from '../utilities/fakeDb';
+import { getStoredJobApplication, saveJobApplication } from '../utilities/fakeDb';
 import toast, { Toaster } from 'react-hot-toast';
 
 
@@ -10,16 +10,16 @@ const JobDetail = () => {
     const { jobId } = useParams();
     const idInt  = parseInt(jobId)
     const job = jobs.find(job => job.id === idInt);
-    console.log(idInt, job);
 
     const { description, job_responsibility, educational_requirements, experience } = job;
     const { id, salary, phone, email, office_location } = job;
 
     const applyJob = (id) => {
-        let appliedJobs = getShoppingCart();
-        const quantity = appliedJobs[id];
+        let appliedJobs = getStoredJobApplication();
+        const exist = appliedJobs.find(job => job === id);
+        saveJobApplication(id);
 
-        if (quantity === 1) {
+        if (exist) {
             toast('Already Applied', {
                 duration: 3000,
                 position: 'top-right',
@@ -27,7 +27,6 @@ const JobDetail = () => {
             });
         }
         else {
-            addToDb(id);
             toast('You have applied', {
                 duration: 3000,
                 position: 'top-right',

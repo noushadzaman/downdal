@@ -1,9 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { getShoppingCart } from '../utilities/fakeDb';
+import { getStoredJobApplication } from '../utilities/fakeDb';
 import AppliedJob from '../AppliedJob/AppliedJob';
 
 const AppliedJobs = () => {
-    const savedDb = getShoppingCart();
+    const savedDb = getStoredJobApplication();
+
+
+
+
+
+    const [selectedOption, setSelectedOption] = useState('option1'); // Set the default selected option
+
+    const handleChange = (event) => {
+        setSelectedOption(event.target.value);
+    };
+
+
 
     const [jobs, setJobs] = useState([]);
     useEffect(() => {
@@ -14,7 +26,7 @@ const AppliedJobs = () => {
 
     let savedJobs = [];
 
-    for (const id in savedDb) {
+    for (const id of savedDb) {
         const savedJob = jobs.find(job => job.id == id);
         if (savedJob) {
             savedJobs.push(savedJob);
@@ -24,13 +36,16 @@ const AppliedJobs = () => {
     return (
 
         <div>
-            <h2 style={{marginBottom : '150px'}} className='section-title'>Job Details</h2>
+            <h2 style={{ marginBottom: '150px' }} className='section-title'>Job Details</h2>
+
+
             <div className='applied-Jobs'>
+          
                 {
                     // if(savedJobs.length === 0){}
-                  savedJobs.length===0 || savedJobs.map(savedJob => <AppliedJob
-                  savedJob={savedJob}
-                  ></AppliedJob>)
+                    savedJobs.length === 0 || savedJobs.map(savedJob => <AppliedJob
+                        savedJob={savedJob}
+                    ></AppliedJob>)
                 }
             </div>
         </div>
