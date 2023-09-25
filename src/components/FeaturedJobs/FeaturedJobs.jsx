@@ -33,7 +33,7 @@ const FeaturedJobs = () => {
                     ></FeaturedJob>)
                 }
             </div>
-            <button style={{cursor: 'pointer'}} onClick={() => seeAllJobsFunc()} className='btn-detail'>SEE ALL JOBS</button>
+            <button style={{ cursor: 'pointer' }} onClick={() => seeAllJobsFunc()} className='btn-detail'>{allJobs ? "See less" : "See more"}</button>
         </div>
     );
 };

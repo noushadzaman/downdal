@@ -1,9 +1,11 @@
 .banner {
     padding-top: 137px;
     padding-bottom: 137px;
-    background-image: url('../../../public/images/All Images/wepik-export-20230910143601EiFF.png');
+    background-image: url('../../../public/images/All Images/handsome-young-businessman-portrait.jpg');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: 80% 100%;
+    background-size: auto 744px;
+    /* padding-left: 85px; */
 }
 
 .banner-title {

@@ -16,8 +16,8 @@ const JobCategory = () => {
             <div className='job-categories-container'>
                 {
                     categories.map(category => <JobCategoryDiv
-                    key={category.id}
-                    category={category}
+                        key={category.id}
+                        category={category}
                     ></JobCategoryDiv>)
                 }
             </div>
