@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { Link, NavLink } from 'react-router-dom';
-import { RxCross1 } from 'react-icons/rx';
-import { FiAlignCenter } from 'react-icons/fi';
+import { ImCross } from 'react-icons/im';
+import { FaAlignLeft } from 'react-icons/fa';
 
 const Header = () => {
     const [nav, setNav] = useState(true);
@@ -16,8 +16,8 @@ const Header = () => {
             <div onClick={handleResponsiveNav} className='nav-responsive-icons'>
                 {
                     nav ?
-                        <FiAlignCenter style={{padding: '18px'}}/>
-                        : <RxCross1  style={{padding: '18px'}}/>
+                        <FaAlignLeft style={{padding: '18px'}}/>
+                        : <ImCross  style={{padding: '18px'}}/>
                 }
             </div>
             <div className={`nav-items ${nav ? "hidden" : "visible"}`} >

@@ -44,6 +44,9 @@ nav a.active {
 .hidden {
     top: -400px;
 }
+.btn-hidden {
+    display: none;
+}
 
 .visible {
     top: 50px;

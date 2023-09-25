@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetail.css';
 import { addToDb, getShoppingCart } from '../utilities/fakeDb';
 import toast, { Toaster } from 'react-hot-toast';
 
 
 const JobDetail = () => {
-    const job = useLoaderData();
-    console.log(job);
+    const jobs = useLoaderData();
+    const { jobId } = useParams();
+    const idInt  = parseInt(jobId)
+    const job = jobs.find(job => job.id === idInt);
+    console.log(idInt, job);
 
-    const { description, job_responsibility, educational_requirements, experience } = job[0];
-    const { id, salary, job_title, phone, email, office_location } = job[0];
-    
+    const { description, job_responsibility, educational_requirements, experience } = job;
+    const { id, salary, phone, email, office_location } = job;
+
     const applyJob = (id) => {
         let appliedJobs = getShoppingCart();
         const quantity = appliedJobs[id];

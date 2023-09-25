@@ -4,7 +4,7 @@ import './FeaturedJobs.css';
 
 const FeaturedJobs = () => {
     const [jobs, setJobs] = useState([]);
-    const [allJobs, setAllJobs] = useState(false);
+    const [dataLength, setDataLength] = useState(4);
 
     useEffect(() => {
         fetch('Jobs.json')
@@ -12,11 +12,6 @@ const FeaturedJobs = () => {
             .then(data => setJobs(data));
     }, [])
 
-    // let seeAllJobs = false;
-
-    const seeAllJobsFunc = () => {
-        setAllJobs(!allJobs);
-    }
 
     return (
         <div className='featured-jobs'>
@@ -24,16 +19,15 @@ const FeaturedJobs = () => {
             <p className='section-description'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             <div className='featured-jobs-container'>
                 {
-                    allJobs ? jobs.map(job => <FeaturedJob
-                        key={job.id}
-                        job={job}
-                    ></FeaturedJob>) : jobs.slice(0, 4).map(job => <FeaturedJob
+                    jobs.slice(0, dataLength).map(job => <FeaturedJob
                         key={job.id}
                         job={job}
                     ></FeaturedJob>)
                 }
             </div>
-            <button style={{ cursor: 'pointer' }} onClick={() => seeAllJobsFunc()} className='btn-detail'>{allJobs ? "See less" : "See more"}</button>
+            <div className={dataLength === jobs.length && 'btn-hidden'}>
+                <button style={{ cursor: 'pointer' }} onClick={() => setDataLength(jobs.length)} className='btn-detail'>See more</button>
+            </div>
         </div>
     );
 };
