@@ -3,15 +3,16 @@ import { useLoaderData, useParams } from 'react-router-dom';
 import './JobDetail.css';
 import { getStoredJobApplication, saveJobApplication } from '../utilities/fakeDb';
 import toast, { Toaster } from 'react-hot-toast';
+import { Helmet } from 'react-helmet-async';
 
 
 const JobDetail = () => {
     const jobs = useLoaderData();
     const { jobId } = useParams();
-    const idInt  = parseInt(jobId)
+    const idInt = parseInt(jobId)
     const job = jobs.find(job => job.id === idInt);
 
-    const { description, job_responsibility, educational_requirements, experience } = job;
+    const { job_title, description, job_responsibility, educational_requirements, experience } = job;
     const { id, salary, phone, email, office_location } = job;
 
     const applyJob = (id) => {
@@ -37,6 +38,9 @@ const JobDetail = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>DownDal | {job_title}</title>
+            </Helmet>
             <h2 className='section-title'>Job Details</h2>
             <div className='job-details-section'>
                 <div className='job-details-info-container'>

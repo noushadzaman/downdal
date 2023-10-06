@@ -1,11 +1,11 @@
 import React from 'react';
 import './AppliedJob.css'
+import { Helmet } from 'react-helmet-async';
 
 const AppliedJob = ({ savedJob }) => {
     const { image_url, job_title, full_name, keywords, office_location, salary } = savedJob;
     return (
         <div className='applied-job'>
-
             <img className='applied-job-image' src={image_url} alt="" />
 
             <div>

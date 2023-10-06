@@ -1,21 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { getStoredJobApplication } from '../utilities/fakeDb';
 import AppliedJob from '../AppliedJob/AppliedJob';
+import { Helmet } from 'react-helmet-async';
 
 const AppliedJobs = () => {
     const savedDb = getStoredJobApplication();
-
-
-
-
-
-    const [selectedOption, setSelectedOption] = useState('option1'); // Set the default selected option
-
-    const handleChange = (event) => {
-        setSelectedOption(event.target.value);
-    };
-
-
 
     const [jobs, setJobs] = useState([]);
     useEffect(() => {
@@ -32,21 +21,21 @@ const AppliedJobs = () => {
             savedJobs.push(savedJob);
         }
     }
-    console.log(savedJobs);
     return (
 
         <div>
+            <Helmet>
+                <title>DownDal | Applied Jobs</title>
+            </Helmet>
             <h2 style={{ marginBottom: '150px' }} className='section-title'>Job Details</h2>
-
-
-            <div className='applied-Jobs'>
-          
-                {
-                    // if(savedJobs.length === 0){}
-                    savedJobs.length === 0 || savedJobs.map(savedJob => <AppliedJob
-                        savedJob={savedJob}
-                    ></AppliedJob>)
-                }
+            <div className='applied-Jobs' style={{ display: 'flex', flexDirection: 'column', justifyItems: 'center' }}>
+                <div>
+                    {
+                        savedJobs.length === 0 || savedJobs.map(savedJob => <AppliedJob
+                            savedJob={savedJob}
+                        ></AppliedJob>)
+                    }
+                </div>
             </div>
         </div>
     );

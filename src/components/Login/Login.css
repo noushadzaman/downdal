@@ -1,0 +1,39 @@
+.profileInputs {
+    border: none;
+    border-bottom: 2px solid #c0c8ff;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    color: #5f5e5e;
+}
+
+.form {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
+    padding-right: 100px;
+    border: 1px solid #7E90FE;
+}
+
+.submit-btn {
+    height: 50px;
+    width: calc(100% + 20px);
+    margin-top: 50px;
+    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.primary {
+    color: #8997f0;
+}
+.user-redirect{
+    margin-top: 15px;
+    text-align: center;
+}

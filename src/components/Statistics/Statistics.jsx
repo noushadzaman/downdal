@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import {
     AreaChart,
     Area,
@@ -61,6 +62,9 @@ const data = [
 const Statistics = () => {
     return (
         <div style={{marginBottom: '150px'}}>
+            <Helmet>
+                <title>DownDal | Statistics</title>
+            </Helmet>
             <h2 className='section-title'>Chart shows the improvement of skills of users gaining through us</h2>
             <AreaChart style={{marginRight: 'auto', marginLeft: 'auto'}}
                 width={425}
