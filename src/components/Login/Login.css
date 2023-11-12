@@ -19,7 +19,7 @@
     height: 50px;
     width: calc(100% + 20px);
     margin-top: 50px;
-    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
     color: white;
     border: none;
     font-size: large;
@@ -39,9 +39,9 @@
     font-size: medium;
     border-radius: 50px;
     height: 30px;
-    color: #7E90FE;
+    color: #00DDEB;
     font-weight: 500;
-    border: 2px solid #7E90FE;
+    border: 2px solid #00DDEB;
     width: 70%;
     width: calc(50% + 20px);
     margin-bottom: 50px;

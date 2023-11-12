@@ -24,7 +24,7 @@ const FeaturedJob = ({ job }) => {
                     <p>{`Salary: ${salary[0]}K - ${salary[1]}K`}</p>
                 </div>
             </div>
-            <Link className='btn-detail' to={`/Job/${id}`}>View Details</Link>
+            <Link to={`/Job/${id}`}><button><span class="text">Star Applying</span></button></Link>
         </div>
     );
 };

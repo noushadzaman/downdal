@@ -1,16 +1,20 @@
 import { useContext } from "react";
 import { AuthContext } from "../Hook/AuthProvider";
 import './Login.css'
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { BsGoogle } from 'react-icons/Bs';
 
 const Login = () => {
     const { signIn, googleSignIn } = useContext(AuthContext);
 
+    const location = useLocation();
+    const navigate = useNavigate();
+
     const popup = () => {
         googleSignIn()
             .then(result => {
-                console.log(result.user)
+                console.log(result.user);
+                navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
                 console.log(error.message)

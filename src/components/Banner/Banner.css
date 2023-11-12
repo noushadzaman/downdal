@@ -1,11 +1,10 @@
 .banner {
     padding-top: 137px;
     padding-bottom: 137px;
-    background-image: url('../../../public/images/All Images/handsome-young-businessman-portrait.jpg');
+    background-image: url('../../../public/images/All Images/wepik-export-20231006131343JKvG.png');
     background-repeat: no-repeat;
     background-position: 80% 100%;
     background-size: auto 744px;
-    /* padding-left: 85px; */
 }
 
 .banner-title {
@@ -17,7 +16,7 @@
 }
 
 .banner-title-span {
-    background: var(--Linear, linear-gradient(90deg, #7E90FE 0%, #9873FF 100%));
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,6 +45,7 @@
         margin-top: 50px;
         padding-right: 80px;
         padding-left: 80px;
+        padding-bottom: 0px;
         background-image: none;
     }
 
@@ -64,11 +64,12 @@
         font-weight: 500;
         padding-bottom: 32px;
     }
+
     .banner {
         padding-top: 0px;
     }
-    
-    
+
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1500px) {

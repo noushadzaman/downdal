@@ -25,8 +25,9 @@ const FeaturedJobs = () => {
                     ></FeaturedJob>)
                 }
             </div>
-            <div className={dataLength === jobs.length && 'btn-hidden'}>
-                <button style={{ cursor: 'pointer' }} onClick={() => setDataLength(jobs.length)} className='btn-detail'>See more</button>
+            <div>
+             
+                <button style={{ cursor: 'pointer' }} onClick={() => setDataLength(jobs.length)} className={dataLength === jobs.length && 'btn-hidden'}><span class="text">Get Started</span></button>
             </div>
         </div>
     );

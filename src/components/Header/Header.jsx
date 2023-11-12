@@ -24,7 +24,7 @@ const Header = () => {
                 }
             </div>
             <div className={`nav-items ${nav ? "hidden" : "visible"}`} >
-                <NavLink className='nav-home-btn a' to="/">DownDal</NavLink>
+                <NavLink className='nav-home-btn' to="/">DownDal</NavLink>
                 <div className='nav-btn-group'>
                     <NavLink className='nav-btn a' to="/statistics">Statistics</NavLink>
                     <NavLink className='nav-btn a' to="/jobs">Applied Jobs</NavLink>
@@ -32,15 +32,11 @@ const Header = () => {
                         !user &&
                         <NavLink className='nav-btn a' to="/login">Login</NavLink>
                     }
-                    {
-                        !user &&
-                        <NavLink className='nav-btn a' to="/register">Register</NavLink>
-                    }
                 </div>
                 {
                     user ?
-                   <button onClick={logOut} className='nav-apply-btn'>Log Out</button>
-                    : <Link><button to="/" className='nav-apply-btn'>Star Applying</button></Link>
+                        <button  onClick={logOut}><span class="text">Log Out</span></button>
+                        : <Link to="/"><button><span class="text">Star Applying</span></button></Link>
                 }
             </div>
         </nav>
